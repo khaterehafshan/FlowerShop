@@ -1,0 +1,51 @@
+export const products = [
+  {
+    id: 1,
+    name: "Luxury Silicone Real Touch Tulips Bouquet",
+    price: "€14.44",
+    rating: "5.0",
+    reviews: 9,
+    image: "https://tse1.mm.bing.net/th/id/OIP.WvQ8y_BziW_muy9cLxzdAwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  },
+  {
+    id: 2,
+    name: "Decor Artificial Roses",
+    price: "€13.24",
+    rating: "4.4",
+    reviews: 102,
+    image: "https://th.bing.com/th/id/OIP.wdeLX42YB-vdtY1Yd3wrGAHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+  },
+  {
+    id: 3,
+    name: "Artificial Flower",
+    price: "€11.33",
+    rating: "4.6",
+    reviews: 221,
+    image: "https://img.joomcdn.net/aedf8d887f1b451a40d5a2fee7690e8f5a727a7e_original.jpeg",
+  },
+  {
+    id: 4,
+    name: "Head Artificial Silk Magnolia Flower Bouquet",
+    price: "€12.10",
+    rating: "4.7",
+    reviews: 88,
+    image: "https://img.joomcdn.net/cf8ee610eb2b8d1f2a27bff2bbcb680613691f1d_original.jpeg",
+  },
+  {
+    id: 5,
+    name: "Large Silk Peony Artificial Flowers",
+    price: "€15.60",
+    rating: "4.9",
+    reviews: 54,
+    image: "https://img.joomcdn.net/0e22bc1bec79ac7c8cdc06d3cbdb97888c66fa4d_original.jpeg",
+  },
+  {
+    id: 6,
+    name: "Single Artificial Hydrangea Rose Bouquet",
+    price: "€10.90",
+    rating: "4.3",
+    reviews: 190,
+    image: "https://img.joomcdn.net/87ef7982cc1f660565ff3b9a3befdb867432d5b7_original.jpeg",
+  },
+];
+
