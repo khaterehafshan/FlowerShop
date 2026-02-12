@@ -4,7 +4,7 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-left">
           <h3>FLOWER SHOP</h3>
-          <p>Bringing joy with flowers🌹</p>
+          <p>Bringing Joy Through Flowers🌹</p>
         </div>
         <div className="footer-center">
           <p>📍 Address: 123 Flower Street, Your City</p>
