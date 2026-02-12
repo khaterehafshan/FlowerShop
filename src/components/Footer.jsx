@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <h3>FLOWER SHOP</h3>
+          <h3> FLOWER SHOP</h3>
           <p>Bringing Joy Through Flowers🌹</p>
         </div>
         <div className="footer-center">
