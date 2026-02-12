@@ -24,6 +24,7 @@ function Footer() {
         &copy; {new Date().getFullYear()} FLOWER SHOP. All rights reserved.
       </div>
     </footer>
+    
   );
 }
 
