@@ -3,13 +3,13 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <h3> FLOWER SHOP</h3>
+          <h3>FLOWER SHOP</h3>
           <p>Bringing Joy Through Flowers🌹</p>
         </div>
         <div className="footer-center">
           <p>📍 Address: 123 Flower Street, Your City</p>
           <p>📞 Phone: +123 456 7890</p>
-          <p>✉ Email: info@flowershop.com</p>
+          <p className="footer-email"> ✉ Email: info@flowershop.com</p>
         </div>
         <div className="footer-right">
           <p>Follow us:</p>
@@ -24,7 +24,6 @@ function Footer() {
         &copy; {new Date().getFullYear()} FLOWER SHOP. All rights reserved.
       </div>
     </footer>
-    
   );
 }
 

@@ -1,14 +1,13 @@
-import { useState } from "react";
+import {useState} from "react";
 
-function Login({ setUser, setAuthModal }) {
+function Login({setUser, setAuthModal}) {
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
-  const [error, setError] = useState(""); 
+  const [error, setError] = useState("");
 
   const login = () => {
-    setError(""); 
+    setError("");
 
-    
     if (!email || !pass) {
       setError("Please fill in all fields.");
       return;
@@ -20,14 +19,13 @@ function Login({ setUser, setAuthModal }) {
       return;
     }
 
-    
     const users = JSON.parse(localStorage.getItem("users")) || [];
     const user = users.find((u) => u.email === email && u.password === pass);
 
     if (user) {
       localStorage.setItem("currentUser", JSON.stringify(user));
       setUser(user);
-      setAuthModal(null); 
+      setAuthModal(null);
     } else {
       setError("Email or password incorrect.");
     }
