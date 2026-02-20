@@ -34,21 +34,6 @@ HTML & CSS
 
 LocalStorage
 
-Project Structure
-FlowerShop/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Gallery.jsx
-│   │   ├── ProductPage.jsx
-│   │   ├── Cart.jsx
-│   │   ├── Login.jsx
-│   │   ├── Signup.jsx
-│   │   └── Footer.jsx
-│   ├── App.jsx
-│   └── index.js
-├── package.json
-└── README.md
 How It Works
 
 Navigation is handled with React Router
